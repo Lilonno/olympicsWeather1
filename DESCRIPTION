@@ -1,0 +1,21 @@
+Package: olympicsWeather
+Title: package météo pour les Jeux Olympiques
+Version: 0.1.0
+Authors@R: 
+    person("Lilou", "Onno", , "Lilou.onno@gmail.com", role = c("aut", "cre"))
+Description: Ce package fournit des prévisions météorologiques pour les sites des Jeux Olympiques.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    devtools,
+    httr2,
+    jsonlite,
+    tibble,
+    usethis,
+    lubridate,
+    tidygeocoder,
+    leaflet,
+    sf,
+    testthat
